@@ -1,5 +1,5 @@
 # desafioQASouth
-Este exercício foi feito em ruby com o framework capybara
+Este exercício foi feito em ruby com o framework capybara com cucumber
 Foi utilizado o sistema operacional linux para criar o projeto, se for rodado no windows, pode ser necessário a revisão de alguns caminhos relacionados a pasta
 Existe um Shell Script para que funcione de forma adequada o projeto, porém se não funcionar a criação do projeto via shell script, será necessário fazer a instalação de algumas ferramentas:
 
@@ -60,3 +60,24 @@ bundle install
 # no arquivo cucumber.yaml é possível ver que variáveis podem ser alteradas ao chamar o Rakefile
 # rake specs["-t tag","-p navegador"]
 rake specs["-t @simulacao_para_voce_ok","-p chrome"]
+
+## PROJETO
+Será necessário executar os comandos dos testes no terminal dentro da desafioQA
+o comando para execução dos testes é:
+#ex:
+#rake specs["-t @simulacao_para_voce_ok","-p chrome"]
+
+A tag do exemplo está no arquivo simulador-poupanca.feature.
+Será necessário substituir as tags para executar outros cenários. Eu optei por não deixar todos os cenários com a mesma tag a fim de que revisor verifique os cenários descritos.
+Todos os cenários foram descritos com BDD
+É possível, também, alterar o navagador de teste dentro do comando rake.
+
+A lista de naveagadores é:
+chorme
+firefox
+chrome_headless
+firefox_headless
+
+Dentro do projeto existe uma pasta chamada logs, onde serão criados logs das execuções em formato.html
+
+Observação: não foi feito a simulação em anos.
