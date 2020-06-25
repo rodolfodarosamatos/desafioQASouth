@@ -1,0 +1,14 @@
+####Navegadores#####
+# Download geckodriver, acessar: https://github.com/mozilla/geckodriver/releases
+# Download Chromedriver: https://chromedriver.chromium.org/
+# Baixe as últimas versões estáveis dos drivers do navegador 
+
+ #- Verificar Arquitetura do SO (32 ou 64 Bits)
+ #- Descompactar arquivos para obter o executável
+ #- inserir em uma pasta PATH
+	#-Para verificar pasta PATH no linux, execute no terminal echo $PATH
+	#-Para verificar pasta PATH no Windows, execute no terminal echo %PATH%
+
+# Para executar um cenário individualmene: #Cucumber -t @tag_desejada
+
+
