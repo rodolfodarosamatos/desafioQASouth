@@ -40,8 +40,8 @@ source ~/.bashrc
 gem install bundle
 
 # download project
-git clone 
-sudo mv iris-test /home/pasta pessoal/Teste/DesafioQA
+git clone https://github.com/rodolfodarosamatos/desafioQASouth.git
+sudo mv desafio /home/pasta pessoal/Teste/DesafioQA
 
 ## install Gemfile
 cd /home/pasta pessoal/Teste/DesafioQA
